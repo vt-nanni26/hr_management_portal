@@ -70,3 +70,10 @@ This system manages employees, interns, trainers, applicants, attendance, leave 
 1. Clone the repository:
    ```bash
    git clone https://github.com/vt-nanni26/hr_management_portal.git
+
+
+## 🔑 Demo Credentials
+
+All users default password:
+
+1234567
