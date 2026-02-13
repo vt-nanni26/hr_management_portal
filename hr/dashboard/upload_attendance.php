@@ -5,13 +5,13 @@
  * 
  * Location: hr/dashboard/upload_attendance.php
  * Description: Processes Excel/CSV attendance uploads - ONLY PROCESSES ROWS WITH DATA
- * Linked with hr_management_portal database
+ * Linked with emp_system database
  */
 
 session_start();
 
 // Database configuration - Using your exact database structure
-$conn = new mysqli('localhost', 'root', '', 'hr_management_portal');
+$conn = new mysqli('localhost', 'root', '', 'emp_system');
 
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);

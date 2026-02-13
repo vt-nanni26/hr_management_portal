@@ -11,7 +11,7 @@ if (!isset($_SESSION['hr_logged_in']) || $_SESSION['hr_logged_in'] !== true) {
 
 // Direct database connection (without external classes)
 $host = "localhost";
-$dbname = "hr_management_portal";
+$dbname = "emp_system";
 $username = "root";
 $password = "";
 

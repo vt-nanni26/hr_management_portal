@@ -12,7 +12,7 @@ ini_set('display_errors', 1);
 define('DB_HOST', '127.0.0.1');
 define('DB_USER', 'root');
 define('DB_PASS', '');
-define('DB_NAME', 'hr_management_portal');
+define('DB_NAME', 'emp_system');
 
 define('COMPANY_NAME', 'HR Management Portal');
 define('COMPANY_ADDRESS', '123 Business Park, City - 123456');

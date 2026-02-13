@@ -6,7 +6,7 @@ session_start();
 define('DB_HOST', 'localhost');
 define('DB_USER', 'root');
 define('DB_PASS', '');
-define('DB_NAME', 'hr_management_portal');
+define('DB_NAME', 'emp_system');
 
 // Check if HR is logged in
 if (!isset($_SESSION['hr_logged_in']) || $_SESSION['hr_logged_in'] !== true) {

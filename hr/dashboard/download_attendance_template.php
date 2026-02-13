@@ -14,7 +14,7 @@ if (!isset($_SESSION['hr_logged_in']) || $_SESSION['hr_logged_in'] !== true) {
 }
 
 // Database configuration
-$conn = new mysqli('localhost', 'root', '', 'hr_management_portal');
+$conn = new mysqli('localhost', 'root', '', 'emp_system');
 
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);

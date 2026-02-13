@@ -6,7 +6,7 @@
 define('DB_HOST', '127.0.0.1');
 define('DB_USER', 'root'); // Change as per your setup
 define('DB_PASSWORD', ''); // Change as per your setup
-define('DB_NAME', 'hr_management_portal');
+define('DB_NAME', 'emp_system');
 
 // Create connection
 $conn = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);

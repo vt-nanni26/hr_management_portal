@@ -16,7 +16,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
 
 // Database connection for badges
 $host = "localhost";
-$dbname = "hr_management_portal";
+$dbname = "emp_system";
 $username = "root";
 $password = "";
 $conn = new mysqli($host, $username, $password, $dbname);

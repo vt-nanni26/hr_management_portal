@@ -13,7 +13,7 @@ if (!isset($_SESSION['hr_logged_in']) || $_SESSION['hr_logged_in'] !== true) {
 
 // Database configuration
 $host = "localhost";
-$dbname = "hr_management_portal";
+$dbname = "emp_system";
 $username = "root";
 $password = "";
 $conn = new mysqli($host, $username, $password, $dbname);
