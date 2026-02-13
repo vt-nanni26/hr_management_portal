@@ -1,0 +1,19 @@
+{
+    "name": "admin/emp_system",
+    "description": "HR Management Portal",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Phpoffice\\Phpspreadsheet\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "vt-nanni26",
+            "email": "svmedicaps@gmail.com"
+        }
+    ],
+    "require": {
+        "phpoffice/phpspreadsheet": "^5.4"
+    }
+}

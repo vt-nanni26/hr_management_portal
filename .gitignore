@@ -1,0 +1,29 @@
+# ==============================
+# Dependency Folders
+# ==============================
+/vendor/
+
+# ==============================
+# Uploads & Generated Files
+# ==============================
+/uploads/
+/employee/dashboard/payslips/
+/hr/dashboard/payslips/
+
+# ==============================
+# Environment Files
+# ==============================
+.env
+
+# ==============================
+# OS & Editor Files
+# ==============================
+.DS_Store
+Thumbs.db
+*.log
+
+# ==============================
+# Temporary Files
+# ==============================
+*.tmp
+*.bak
